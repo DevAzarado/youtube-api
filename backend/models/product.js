@@ -32,7 +32,7 @@ const productSchema = new mongoose.Schema({
       },
     },
   ],
-  categoty: {
+  category: {
     type: String,
     required: [true, "Please select category for this product"],
     enum: {

@@ -19,7 +19,7 @@ const seedProducts = async () => {
     //
   } catch (error) {
     console.log(error.message);
-    process.exit();
+    process.exit(1);
   }
 };
 
